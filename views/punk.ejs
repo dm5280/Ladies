@@ -39,17 +39,17 @@
                 </div>
                 -->
                 <% if (!_.isEmpty(collection_contract_address)) { %>
-                <a class="view-on-link" href="https://opensea.io/assets/<%= collection_contract_address %>/<%= punk.id %>" target="_blank">
+                <a class="view-on-link" href="https://explorenft.app/explore/nfts/<%= collection_contract_address %>/<%= punk.id %>?chainId=56" target="_blank">
                   <div class="view-on-block text-center">
-                    <img class="view-on-icon" src="/images/opensea.svg">
-                    View on OpenSea
+                    <img class="view-on-icon" src="/images/Explore.png">
+                    View on ExploreNFT
                   </div>
                 </a>
                 <% } %>
                 <% if (!_.isEmpty(punk.external_url)) { %>
                 <a class="view-on-link" href="<%= punk.external_url %>" target="_blank">
                   <div class="view-on-block text-center">
-                    <img class="view-on-icon" src="/images/profile@32w.png">
+                    <img class="view-on-icon" src="/images/Bull.png">
                     View on Official Site
                   </div>
                 </a>
