@@ -9,7 +9,7 @@ const config = {
     ignore_traits: ['date'], 
     sqlite_file_name: 'database.sqlite',
     //ga: 'G-BW69Z04YTP',
-    main_og_image: '/images/Bull.png',
+    main_og_image: 'https://ipfs.io/ipfs/QmadDmEzhEMoQm6rubNMXdVkmtT7Lde71cbVpvZkFSNQGv',
     item_path_name: 'bull',
     page_item_num: 60,
     content_image_is_video: false,
